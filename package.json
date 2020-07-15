@@ -5,5 +5,8 @@
   "repository": "https://github.com/qratch/qratch",
   "author": "hota1024",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
 }
