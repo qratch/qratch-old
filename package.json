@@ -8,5 +8,9 @@
   "private": false,
   "devDependencies": {
     "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "webpack-cli": "^3.3.12"
   }
 }
