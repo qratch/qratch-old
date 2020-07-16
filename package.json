@@ -20,8 +20,7 @@
     "rollup-plugin-sourcemaps": "^0.6.2",
     "rollup-plugin-typescript2": "^0.27.1",
     "ttypescript": "^1.5.10",
-    "typescript": "^3.9.6",
-    "typescript-transform-paths": "^1.1.14"
+    "typescript": "^3.9.6"
   },
   "dependencies": {}
 }
