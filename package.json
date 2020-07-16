@@ -10,7 +10,8 @@
   "scripts": {
     "lint": "eslint",
     "dev": "rollup -c rollup.config.js -w",
-    "build": "rollup -c rollup.config.js --compact"
+    "build": "rollup -c rollup.config.js --compact",
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
