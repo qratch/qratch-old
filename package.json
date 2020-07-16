@@ -30,5 +30,22 @@
     "ttypescript": "^1.5.10",
     "typescript": "^3.9.6"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/tests/**/*.test.ts"
+    ]
+  }
 }
