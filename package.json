@@ -1,7 +1,7 @@
 {
   "name": "qratch",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "typings": "dist/types/index.d.ts",
   "repository": "https://github.com/qratch/qratch.git",
   "author": "hota1024 <hotalog@hota1024.com>",
