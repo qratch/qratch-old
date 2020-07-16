@@ -5,5 +5,8 @@
   "repository": "https://github.com/qratch/qratch.git",
   "author": "hota1024 <hotalog@hota1024.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "rollup": "^2.21.0"
+  }
 }
