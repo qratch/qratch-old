@@ -15,6 +15,12 @@ export default {
   ],
   plugins: [
     typescript({
+      typescript: require('ttypescript'),
+      tsconfigDefaults: {
+        compilerOptions: {
+          plugins: [{ transform: '@zerollup/ts-transform-paths' }],
+        },
+      },
       useTsconfigDeclarationDir: true,
     }),
     sourcemaps(),
