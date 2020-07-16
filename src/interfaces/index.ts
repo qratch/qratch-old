@@ -1,1 +1,3 @@
+// Colors
 export * from './Colorable'
+export * from './Color'
