@@ -5,3 +5,4 @@ export * from './Gradient'
 
 // Points
 export * from './Pointable'
+export * from './MovableByPointable'
