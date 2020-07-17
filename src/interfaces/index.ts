@@ -12,3 +12,4 @@ export * from './PositionSettable'
 
 // Shapes
 export * from './Quad'
+export * from './Rect'
