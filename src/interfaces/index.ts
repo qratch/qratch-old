@@ -8,6 +8,7 @@ export * from './Pointable'
 export * from './MovableByPointable'
 export * from './Vec2'
 export * from './Rotatable'
+export * from './PositionSettable'
 
 // Shapes
 export * from './Quad'
