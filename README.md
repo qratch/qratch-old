@@ -12,3 +12,4 @@
   - [] `Circle`
   - [] `Dot`
   - [] `Line`
+  - [] `Text`
