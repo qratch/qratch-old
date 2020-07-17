@@ -1,9 +1,13 @@
 import { IPointable, IMovableByPointable } from '.'
+import { IRotatable } from './Rotatable'
 
 /*
  * Vec2 interface.
  */
-export interface IVec2 extends IPointable, IMovableByPointable<IVec2> {
+export interface IVec2
+  extends IPointable,
+    IMovableByPointable<IVec2>,
+    IRotatable<IVec2> {
   /**
    * Set by given value.
    *
